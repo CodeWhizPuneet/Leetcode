@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0035-search-insert-position) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0234-palindrome-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Linked List
@@ -55,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0078-subsets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0078-subsets) |
+## Sorting
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
 <!---LeetCode Topics End-->
