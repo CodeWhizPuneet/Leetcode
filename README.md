@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
 ## Sliding Window
 |  |
@@ -35,10 +36,12 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0234-palindrome-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0234-palindrome-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0328-odd-even-linked-list) |
 ## Stack
@@ -61,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
