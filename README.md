@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0904-fruit-into-baskets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0904-fruit-into-baskets) |
 ## Prefix Sum
@@ -78,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
