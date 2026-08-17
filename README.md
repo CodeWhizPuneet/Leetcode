@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0904-fruit-into-baskets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0904-fruit-into-baskets) |
 ## Sliding Window
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Linked List
 |  |
@@ -71,4 +73,9 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
