@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0033-search-in-rotated-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0035-search-insert-position) |
 | [0078-subsets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0078-subsets) |
+| [0152-maximum-product-subarray](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0904-fruit-into-baskets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0904-fruit-into-baskets) |
@@ -84,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0152-maximum-product-subarray](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0152-maximum-product-subarray) |
 <!---LeetCode Topics End-->
