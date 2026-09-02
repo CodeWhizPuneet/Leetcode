@@ -7,12 +7,12 @@ public:
         while(j<nums.size()){
             if(nums[i]!=nums[j]){
                 nums[i+1] = nums[j];
-                i++;count++;
+                i++;
             }
             if(nums[i]==nums[j]){
                 j++;
             }
         }
-        return count;
+        return i+1;
     }
 };
