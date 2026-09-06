@@ -1,40 +1,65 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        int n = nums.size();
-        
-        // 1. Square all elements in-place and find split point
-        int count = -1; // Pointer for negative numbers
-        for (int i = 0; i < n; i++) {
-            if (nums[i] < 0) {
-                count = i;
+        vector<int> a;
+        vector<int> b;
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]<0){
+                a.push_back(nums[i]);
             }
-            nums[i] = nums[i] * nums[i];
+            else{
+                b.push_back(nums[i]);
+            }
         }
-
-        vector<int> res(n);
+        if(a.size()==0){
+            for(int i=0;i<nums.size();i++){
+                nums[i]=nums[i]*nums[i];
+            }
+            return nums;
+        }
+        else if(b.size()==0){
+            for(int i=0;i<nums.size();i++){
+                nums[i]=nums[i]*nums[i];
+            }
+            reverse(nums.begin(), nums.end());
+            return nums;
+        }
+        int i = 0;
+        int j = 0;
         int idx = 0;
-        int p = count + 1; // Pointer for non-negative numbers
+        int n = a.size();
+        int m = b.size();
+        vector<int> res(m+n);
+        for(int i=0;i<n;i++){
+            a[i]=a[i]*a[i];
+        }
+        reverse(a.begin(),a.end());
 
-        // 2. Merge two halves outward
-        while (count >= 0 && p < n) {
-            if (nums[count] <= nums[p]) {
-                res[idx++] = nums[count--];
-            } else {
-                res[idx++] = nums[p++];
+        for(int j=0;j<m;j++){
+            b[j]=b[j]*b[j];
+        }
+        while(i<n and j<m){
+            if(a[i]<=b[j]){
+                res[idx]=a[i];
+                i++;
+                idx++;
+            }
+            else{
+                res[idx]=b[j];
+                j++;
+                idx++;
             }
         }
-
-        // 3. Collect remaining elements from negative side
-        while (count >= 0) {
-            res[idx++] = nums[count--];
+        while(i<n){
+            res[idx]=a[i];
+            i++;
+            idx++;
         }
-
-        // 4. Collect remaining elements from positive side
-        while (p < n) {
-            res[idx++] = nums[p++];
+        while(j<m){
+            res[idx]=b[j];
+            j++;
+            idx++;
         }
-
         return res;
     }
 };
