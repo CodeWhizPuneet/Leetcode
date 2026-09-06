@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0238-product-of-array-except-self](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0904-fruit-into-baskets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+| [0977-squares-of-a-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Linked List
 |  |
 | ------- |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0016-3sum-closest) |
+| [0977-squares-of-a-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
