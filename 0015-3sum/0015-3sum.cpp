@@ -4,14 +4,15 @@ public:
         vector<vector<int>> res;
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size()-2;i++){
-            if(i>0 && nums[i]==nums[i-1]){
+            if(i>0 &&nums[i]==nums[i-1]){
                 continue;
             }
             int left = i+1;
             int right = nums.size()-1;
+            int sum = -1 * nums[i];
             while(left<right){
-            int sum = nums[i]+nums[left]+nums[right];
-            if(sum==0){
+            int s = nums[left]+nums[right];
+            if(s==sum){
                 res.push_back({nums[i],nums[left],nums[right]});
                 left++;
                 right--;
@@ -22,7 +23,7 @@ public:
                     right--;
                 }
             }
-            else if(sum<0){
+            else if(s<sum){
                 left++;
             }
             else{
