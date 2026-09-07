@@ -9,21 +9,20 @@ public:
             }
             int left = i+1;
             int right = nums.size()-1;
-            int sum = -1 * nums[i];
             while(left<right){
-            int s = nums[left]+nums[right];
-            if(s==sum){
+            int sum = nums[i]+nums[left]+nums[right];
+            if(sum==0){
                 res.push_back({nums[i],nums[left],nums[right]});
                 left++;
                 right--;
                 while(left<nums.size() && nums[left]==nums[left-1]){
                     left++;
                 }
-                while(right>=nums.size() && nums[right]==nums[right+1]){
+                while(right>=0 && nums[right]==nums[right+1]){
                     right--;
                 }
             }
-            else if(s<sum){
+            else if(sum<0){
                 left++;
             }
             else{
