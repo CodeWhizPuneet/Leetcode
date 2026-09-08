@@ -5,10 +5,6 @@ public:
             int diff = n - 1000+1;
             return diff;
         }
-        else if(n>=1000000){
-            int diff = n - 1000000+1;
-            return diff;
-        }
         else{
             return 0;
         }
