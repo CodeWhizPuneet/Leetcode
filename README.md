@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0026-remove-duplicates-from-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0035-search-insert-position) |
+| [0066-plus-one](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0066-plus-one) |
 | [0202-happy-number](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0202-happy-number) |
 | [3870-count-commas-in-range](https://github.com/CodeWhizPuneet/Leetcode/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/3871-count-commas-in-range-ii) |
