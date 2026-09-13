@@ -1,21 +1,25 @@
 class Solution {
 public:
     int totalFruit(std::vector<int>& fruits) {
-        std::unordered_map<int, int> count;
-        int left = 0;
-        int max_fruits = 0;
+        int n = fruits.size();
+        int low = 0;
+        int res = INT_MIN;
+        unordered_map<int , int> count;
+        for(int high = 0; high<n; high++){
+            count[fruits[high]] = count[fruits[high]] + 1;
 
-        for (int right = 0; right < fruits.size(); ++right) {
-            count[fruits[right]]++;
-            while (count.size() > 2) {
-                count[fruits[left]]--;
-                if (count[fruits[left]] == 0) {
-                    count.erase(fruits[left]);
+            while(count.size() > 2){
+                count[fruits[low]]--;
+                if(count[fruits[low]]==0){
+                    count.erase(fruits[low]);
                 }
-                left++;
+                low++;
             }
-            max_fruits = std::max(max_fruits, right - left + 1);
+            if(count.size()<=2){
+                int len = high - low + 1;
+                res = max(len,res);
+            }
         }
-        return max_fruits;
+        return (res == INT_MIN) ? 1 : res;
     }
 };
