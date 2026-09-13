@@ -3,7 +3,7 @@ public:
     int totalFruit(std::vector<int>& fruits) {
         int n = fruits.size();
         int low = 0;
-        int res = INT_MIN;
+        int res = 0 ;
         unordered_map<int , int> count;
         for(int high = 0; high<n; high++){
             count[fruits[high]] = count[fruits[high]] + 1;
@@ -20,6 +20,6 @@ public:
                 res = max(len,res);
             }
         }
-        return (res == INT_MIN) ? 1 : res;
+        return res;
     }
 };
