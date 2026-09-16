@@ -1,23 +1,26 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        vector<int> lastPos(128, -1);
-        int maxxLength = 0;
-        int left = 0;
+       int left = 0;
+       int res = INT_MIN;
+       int n = s.size();
+       unordered_map<char , int> f ;
+       for(int right= 0 ; right<n ; right++){
+            f[s[right]] = f[s[right]] + 1;
 
-        for (int right = 0; right < s.length(); ++right) {
-            char currentChar = s[right];
-            
-            // If character was seen inside the current window, shrink the window
-            if (lastPos[currentChar] >= left) {
-                left = lastPos[currentChar] + 1;
+            int len = right - left + 1;
+            while(f.size()<len){
+                f[s[left]]--;
+                if(f[s[left]]==0){
+                    f.erase(s[left]);
+                }
+                left++;
+                len = right - left + 1;
             }
-
-            // Update character's latest position and calculate window size
-            lastPos[currentChar] = right;
-            maxxLength = max(maxxLength, right - left + 1);
-        }
-
-        return maxxLength;
+            if(f.size()==len){
+                res = max(res,len);
+            }
+       }
+       return (res == INT_MIN) ? 0 : res;
     }
 };
