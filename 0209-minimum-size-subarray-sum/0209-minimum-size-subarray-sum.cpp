@@ -18,18 +18,18 @@ public:
         // }
         // if (res == INT_MAX) return 0;
         // return res;
-        int n = nums.size();
-        int window = 0;
-        int left = 0;
-        int res = INT_MAX;
-        for(int right =0 ; right<n ; right++  ){
-            window = window + nums[right];
-            while(window>=target){
-                res = min(res, right - left +1);
-                window = window - nums[left];
-                left++;
+       int n = nums.size();
+       int low = 0;
+       int window = 0;
+       int res = INT_MAX;
+       for(int high = 0 ; high<n ; high++){
+            window = window + nums[high];
+            while(window >= target){
+            res = min(res, high-low+1);
+            window = window - nums[low];
+            low++;
             }
         }
-        return res == INT_MAX ? 0 : res ;
+        return (res==INT_MAX)?0:res;
     }
 };
