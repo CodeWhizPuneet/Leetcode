@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0219-contains-duplicate-ii](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0283-move-zeroes) |
+| [0896-monotonic-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0896-monotonic-array) |
 | [0904-fruit-into-baskets](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0918-maximum-sum-circular-subarray](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/CodeWhizPuneet/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
